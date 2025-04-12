@@ -1,0 +1,37 @@
+/* Para dejar fijo el tamaño de la caja
+aún cuando agregamos margen y padding
+html{
+    box-sizing: border-box;
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}*/
+#ejemplo1{
+    background-color: #f1a20b;
+    width: 500px;
+    height: 100px;
+}
+/* Este e sun comentario en CSS*/
+#ejemplo2{
+    background-color: #f1a20b;
+    width: 500px;
+    height: 100px;
+    border: 10px solid #fc036c;
+}
+
+#ejemplo3{
+    background-color: #f1a20b;
+    width: 500px;
+    height: 100px;
+    border: 10px solid #fc036c;
+    padding: 20px;
+}
+
+#ejemplo4{
+    background-color: #f1a20b;
+    width: 500px;
+    height: 100px;
+    border: 10px solid #fc036c;
+    padding: 20px;
+    margin: 30px;
+}
